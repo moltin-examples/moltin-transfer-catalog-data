@@ -18,7 +18,8 @@ module.exports = async function() {
   //get a products To Check flows
   const oldProducts = await oldSite.get("products?page[limit]=1");
   const productFlow = await newSite.get("flows");
-  if (isEmpty(productFlow)) {
+
+  if (isEmpty(productFlow.data)) {
     //create flow for Products
     var data = {
       type: "flow",
