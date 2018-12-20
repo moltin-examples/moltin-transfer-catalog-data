@@ -1,0 +1,26 @@
+{
+  "name": "transfer-moltin-site-app",
+  "version": "1.0.0",
+  "description": "Example code can be used to transfer catalog data from one moltin site to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@moltin/request": "^1.4.1",
+    "@moltin/sdk": "3.2.0",
+    "csv": "^4.0.0",
+    "csv-parser": "^2.1.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "image-downloader": "^3.4.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
